@@ -1,0 +1,12 @@
+{
+	"name": "greeter-bot",
+	"version": "1.0.0",
+	"description": "For Every Time you hit a Reus",
+	"main": "bot.js",
+	"author": "Lucardo",
+	"dependencies": {
+		"discord.js": "^12.5.3",
+		"dotenv": "^8.6.0",
+		"node-fetch": "^2.6.5"
+	}
+}
