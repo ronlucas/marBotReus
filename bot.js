@@ -25,7 +25,7 @@ client.on('message',gotMessage);
 
 async function gotMessage(msg){
     if(reus.some(v=> msg.content.toLowerCase().includes(v))){
-        let url = `https://api.tenor.com/v1/search?q=reus&key=${process.env.TENORKEY}&contentfilter=high`;
+        let url = `https://api.tenor.com/v1/search?q=marco reus&key=${process.env.TENORKEY}&contentfilter=high`;
         let response = await fetch(url);
         let json = await response.json();
         const index = Math.floor(Math.random() * json.results.length);
